@@ -9,4 +9,10 @@ h1{
 body{
 background-color: #80d4f6 ; 
 }
-
+.faiteVotrelisteici{
+	color:black ;
+}
+.Fait{ 
+color: yellow; 
+text-decoration: line-through;
+ }

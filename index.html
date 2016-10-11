@@ -3,29 +3,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="Semantic-UI-CSS-master/semantic.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <title>Todolist Project</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<title>Todolist Project</title>
 </head>
 <body>
 
-    <h1>MY TODOLIST</h1>
-    
-    <div class="inbox" id="aFaire">
-        <h2 class="Inbox"> A faire  </h2>
-        <ul class="faiteVotrelisteici"> </ul>
-        <input type="text">
-        <button>Ajouter la tâche à Faire </button>
+	<h1>MY TODOLIST</h1>
 
-    
+	<div class="inbox" id="aFaire">
+		
+		<input type="text">
 
-</div>    
+		<button>Ajouter la tâche à Faire </button>
+		<ul class="faiteVotrelisteici"> </ul>
+		
+	</div>    
+
+	<div class="outbox" id="Faite">
+		<ul class="Votrelistefaite"> </ul>
+		<ul>
+		<!-- <li><input type="checkbox" id="tachefaite1">   j'ai fais la checklist
+		<li><input type="checkbox" id="tachefaite2"> je fais la checklist
+		<li><input type="checkbox" id="tachefaite3"> je fais la checklist
+		</li> -->
+		</ul>
+		<button>Tache faite</button>
+
+	</div>
 
 
-<script src ="node_modules/jquery/dist/jquery.min.js"></script>
-<script src="app.js"></script>
-<p></p>
+	<script src ="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<p></p>
 </body>
 </html>
