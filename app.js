@@ -1,11 +1,7 @@
-//var tab ["bla";"bal" ]; 
-// function inbox (){
-// 	var todo = $("#myinput").val();
-// 	$(todo).text();
-// 		console.log("hi");
+$("button").click(function(){
+
+   var recoveredInput = $("input").val();    
+   $(".faiteVotrelisteici").append("<li>"+recoveredInput+"</li>"); 
+   ; console.log("recoveredInput"); }
+}
 	
- $("button").click(function(){
-
- 	var recoveredInput = $("button").val("input");
-
-    	});
