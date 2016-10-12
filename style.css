@@ -1,18 +1,21 @@
 
 *{ 
-font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 
 }
 h1{
     text-align: center;
 }
 body{
-background-color: #80d4f6 ; 
+	background-color: #80d4f6 ; 
 }
 .faiteVotrelisteici{
 	color:black ;
+
+	}
+.tachefaite{
+	text-decoration: line-through;
 }
-.Fait{ 
-color: yellow; 
-text-decoration: line-through;
- }
+li{
+	list-style: none; 
+}
