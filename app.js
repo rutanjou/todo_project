@@ -1,3 +1,4 @@
+$(document).ready(function(){
 $("button").click(function(){
 	var recoveredInput = $("input").val();
 	$(".faiteVotrelisteici").append('<li><input type="checkbox" class="checked"/>'+recoveredInput+'</li>');
@@ -13,5 +14,5 @@ $("button").click(function(){
 		}; 
 	}); 
 });	
-
+});
 
